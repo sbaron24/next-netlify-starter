@@ -1,0 +1,25 @@
+
+.navigation {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navigation li a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Default link color */
+}
+
+.navigation li a:hover {
+  color: lightgrey; /* Change color on hover */
+}
+
+.light-grey-line {
+  background-color: lightgrey; /* Set background color */
+  height: 2px; /* Set height of the line */
+}
